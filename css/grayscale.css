@@ -138,6 +138,10 @@ a:focus {
 .intro .intro-body .brand-heading {
   font-size: 40px;
 }
+.intro .intro-body img.header-logo {
+  width:100%;
+  max-width:700px;
+}
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
