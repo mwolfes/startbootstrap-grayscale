@@ -90,7 +90,7 @@ a:focus {
   transition: background 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: #1d9b6c;
   outline: none;
   background-color: transparent;
 }
@@ -103,7 +103,8 @@ a:focus {
   outline: none;
 }
 .navbar-custom .nav li.active a {
-  background-color: rgba(255, 255, 255, 0.3);
+  /*background-color: rgba(255, 255, 255, 0.3);*/
+  background-color: #1d9b6c;
 }
 .navbar-custom .nav li.active a:hover {
   color: white;
@@ -241,11 +242,12 @@ a:focus {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  text-shadow: 1px 1px 5px #000;
 }
 #map {
   width: 100%;
   height: 350px;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 @media (min-width: 767px) {
   .content-section {
@@ -256,7 +258,7 @@ a:focus {
   }
   #map {
     height: 550px;
-    margin-top: 250px;
+    margin-top: 0px;
   }
 }
 .btn {
@@ -323,4 +325,17 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+/* custom column classes */
+.mt-20{
+    margin-top:20px!important;
+}
+.mt-50{
+    margin-top:50px!important;
+}
+.mb-20{
+    margin-bottom:20px!important;
+}
+.mb-50{
+    margin-bottom:50px!important;
 }
