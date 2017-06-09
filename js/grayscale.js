@@ -104,5 +104,5 @@ setInterval(function () {
     hours = parseInt(seconds_left / 3600);
      
     // format countdown string + set tag value
-    countingdown.innerHTML = '<span class="daysnumber">' + days +  ' </span><span class="days">Days</span> <span class="hoursnumber">' + hours + ' </span><span class="hours">Hours</span> '  ;  
+    countingdown.innerHTML = '<span class="daysnumber">' + days +  ' </span><span class="days">Days @</span> <span class="hoursnumber">' + hours + ' </span><span class="hours">Hours</span> '  ;  
 }, 1000);
