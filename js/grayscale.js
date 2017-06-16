@@ -37,7 +37,7 @@ var map = null;
 // When the window has finished loading create our google map below
 google.maps.event.addDomListener(window, 'load', init);
 google.maps.event.addDomListener(window, 'resize', function() {
-    map.setCenter(new google.maps.LatLng(49.9385526,8.1873182));
+    map.setCenter(new google.maps.LatLng( 49.938580, 8.187414 ));
 });
 
 function init() {
@@ -49,7 +49,8 @@ function init() {
 
         // The latitude and longitude to center the map (always required)
         //center: new google.maps.LatLng(40.6700, -73.9400), // New York
-        center: new google.maps.LatLng(49.9385526,8.1873182), // Ober-Olm
+        // center: new google.maps.LatLng(49.9385526,8.1873182), // Ober-Olm
+        center: new google.maps.LatLng( 49.938580, 8.187414 ), // Ober-Olm
 
 
         // Disables the default Google Maps UI components
@@ -59,7 +60,8 @@ function init() {
 
         // How you would like to style the map.
         // This is where you would paste any style found on Snazzy Maps.
-        styles: [{"stylers":[{"hue":"#ff1a00"},{"invert_lightness":true},{"saturation":-100},{"lightness":15},{"gamma":0.99}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#2D333C"}]}]
+styles:[{"stylers":[{"hue":"#ff1a00"},{"invert_lightness":true},{"saturation":-100},{"lightness":15},{"gamma":0.99}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#26589b"}]},{"featureType":"road.arterial","elementType":"labels.text.fill","stylers":[{"color":"#ffcf7c"}]},{"featureType":"road.arterial","elementType":"labels.text.stroke","stylers":[{"color":"#2c2c2c"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffcf7c"}]},{"featureType":"road.highway","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.highway","elementType":"labels.text.stroke","stylers":[{"color":"#2c2c2c"}]}]
+    
     };
 
     // Get the HTML DOM element that will contain your map
@@ -71,7 +73,7 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(49.9385526,8.1873182);
+    var myLatLng = new google.maps.LatLng( 49.938580, 8.187414 );
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,
