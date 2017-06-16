@@ -60,7 +60,7 @@ function init() {
 
         // How you would like to style the map.
         // This is where you would paste any style found on Snazzy Maps.
-styles:[{"stylers":[{"hue":"#ff1a00"},{"invert_lightness":true},{"saturation":-100},{"lightness":15},{"gamma":0.99}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#26589b"}]},{"featureType":"road.arterial","elementType":"labels.text.fill","stylers":[{"color":"#ffcf7c"}]},{"featureType":"road.arterial","elementType":"labels.text.stroke","stylers":[{"color":"#2c2c2c"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffcf7c"}]},{"featureType":"road.highway","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.highway","elementType":"labels.text.stroke","stylers":[{"color":"#2c2c2c"}]}]
+styles:[{"stylers":[{"hue":"#ff1a00"},{"invert_lightness":true},{"saturation":-100},{"lightness":8.2},{"gamma":0.99}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#26589b"}]},{"featureType":"road.arterial","elementType":"labels.text.fill","stylers":[{"color":"#ffcf7c"}]},{"featureType":"road.arterial","elementType":"labels.text.stroke","stylers":[{"color":"#2c2c2c"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffcf7c"}]},{"featureType":"road.highway","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.highway","elementType":"labels.text.stroke","stylers":[{"color":"#2c2c2c"}]}]
     
     };
 
