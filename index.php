@@ -63,12 +63,12 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-                    <li>
+<!--                     <li>
                         <a class="page-scroll" href="#countdown">Countdown</a>
-                    </li>
-<!-- 					<li>
-                        <a class="page-scroll" href="#gallery">Gallery</a>
                     </li> -->
+					<li>
+                        <a class="page-scroll" href="#gallery">Gallery</a>
+                    </li>
 
                 </ul>
             </div>
@@ -181,14 +181,12 @@
         </div><!-- /.row Div -->
     </section>
 
- <!--    <section id="gallery" class="container content-section text-center">
+    <section id="gallery" class="container content-section text-center">
     	<h2><i class="fa fa-photo"></i> Gallery</h2>
-    	<?php
-    	phpinfo();
-    	?>
+    	<!-- <?php include 'gallery/images.php'; ?> -->
     	<div id="images"></div>
     </section>
- -->
+
 
     <!-- Footer -->
     <footer>
@@ -211,8 +209,6 @@
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.js"></script>
-<!-- 
-    <script src="gallery/gallery.js"></script> -->
 
 </body>
 
